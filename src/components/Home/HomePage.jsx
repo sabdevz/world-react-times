@@ -10,7 +10,7 @@ const HomePage = () => {
 
   useEffect(() => {
     getCountriesData();
-  }, []);
+  }, [countryData]);
 
   const getCountriesData = async () => {
     const options = { method: 'GET' };
